@@ -12,6 +12,7 @@ btn.addEventListener("click",()=>{
   else{
     document.querySelector("h5").textContent="stranger";
     document.querySelector("h5").color="red"
+    btn.style.color="gray"
     flag=0
     alert("your friend is removed")
   }
