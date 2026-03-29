@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy-Bold";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: skyblue;
+}
+
+#card {
+    border-radius: 10px;
+    height: 420px;
+    width: 300px;
+    box-shadow: 0px 5px 10px rgb(6, 5, 5);
+    position: relative;
+    background-color: white;
+    padding: 25px;
+}
+
+#card img {
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#card h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+}
+
+#card p {
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+#card h5{
+    text-align: center;
+    color: red;
+margin: 10px 0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+
+}
+#card .btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#card #btn1{
+    padding: 5px 10px ;
+    background-color: rgb(8, 84, 16);
+    color: white;
+    font-weight: 500;
+
+
+    margin: 15px 2%;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#card button{
+    cursor: pointer;
+}
+
+#card button:active{
+scale: 0.99;
+box-shadow: 0px 0px 10px gray;
+}
+
+#cut{
+ position: absolute;
+ right: 12px;
+ top: 12px;
+}
